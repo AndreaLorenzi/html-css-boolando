@@ -5,7 +5,7 @@
 }
 
 .boolando-nav{
-    background-color: orange;
+    background-color: rgb(255, 119, 0);
     width: 100%;
     height: 60px;
     position: fixed;
@@ -60,7 +60,7 @@
 .conteiner-main{
 
     margin: auto;
-    height: 1200px;
+    height: 1400px;
     width: 1200px;
     display: flex;
     flex-wrap: wrap;
@@ -72,32 +72,45 @@
 }
 
 .one{
-    height: 550px;
+    height: 570px;
     width: 350px;
-
+    position: absolute;
+    left: 0; 
 }
 .two{
-    height: 550px;
+    height: 570px;
     width: 350px; 
-
+    position: absolute;
+    left: 450px;
 }
 
 .three{
-    height: 550px;
+    height: 570px;
     width: 350px;
+    position: absolute;
+    left: 850px;
 
 }
 .four{
-    height: 550px;
+    height: 570px;
     width: 350px;
+    position: absolute;
+    left: 0;
+    top: 650px;
 }
 .five{
-    height: 550px;
+    height: 570px;
     width: 350px;
+    position: absolute;
+    left: 450px;
+    top: 650px;
 }
 .six{
-    height: 550px;
+    height: 50px;
     width: 350px;
+    position: absolute;
+    left: 850px;
+    top: 650px;
 }
 .levis{
     width: 350px;
@@ -138,4 +151,19 @@ h1{
 
 p{
     font-size: 10px;
+}
+.fa-solid.fa-heart{
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+
+}
+
+.footer-nav{
+    background-color: black;
+    width: 100%;
+    height: 100px;
 }
