@@ -4,3 +4,138 @@
     box-sizing: border-box;
 }
 
+.boolando-nav{
+    background-color: orange;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.conteiner{
+    height: 50px;
+    width: 1200px;
+    margin-inline: auto;
+    padding-inline: 1rem;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center ;
+    margin: auto;
+
+}
+
+
+.nav{
+    display: flex;
+}
+
+.sex{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    width: 400px;
+   
+}
+
+.sex a {
+    color: white;
+	display: flex;
+	padding-inline: 1.5em;
+	height: 100%;
+    text-decoration-line: none;
+}
+.logo{
+    width: 400px;
+    height: 30px;
+    background-image: url(../img/boolean-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.icone-nav{
+    color: white;
+}
+
+.conteiner-main{
+
+    margin: auto;
+    height: 1200px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+    
+
+}
+
+.one{
+    height: 550px;
+    width: 350px;
+
+}
+.two{
+    height: 550px;
+    width: 350px; 
+
+}
+
+.three{
+    height: 550px;
+    width: 350px;
+
+}
+.four{
+    height: 550px;
+    width: 350px;
+}
+.five{
+    height: 550px;
+    width: 350px;
+}
+.six{
+    height: 550px;
+    width: 350px;
+}
+.levis{
+    width: 350px;
+    height: 500px;
+}
+.guess{
+    width: 350px;
+    height: 500px;
+}
+.green{
+    height: 500px;
+    width: 350px;
+}
+.jeans{
+    height: 500px;
+    width: 350px;
+}
+
+.maya-deluxe{
+     height: 500px;
+    width: 350px;
+}
+
+.black-pullover{
+    height: 500px;
+    width: 350px;
+}
+
+.text{
+  
+}
+.price{
+    color:red;
+}
+h1{
+    font-size: 15px;
+}
+
+p{
+    font-size: 10px;
+}
