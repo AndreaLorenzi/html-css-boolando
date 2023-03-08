@@ -62,9 +62,7 @@
     margin: auto;
     height: 1400px;
     width: 1200px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+
     position: relative;
     top: 100px;
     
@@ -146,13 +144,16 @@
     color:red;
 }
 h1{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 p{
     font-size: 10px;
 }
 .fa-solid.fa-heart{
+    display:flex;
+    align-items: center;
+    justify-content: center;
     background-color: grey;
     width: 20px;
     height: 20px;
@@ -162,8 +163,78 @@ p{
 
 }
 
+
+.fa-solid.fa-heart.heart-red:hover{
+    color: red;
+}
+.sconto{
+    color: white;
+    width: auto;
+    height: auto;
+    background-color: red;
+    position: absolute;
+    bottom: 100px;
+
+}
+span{
+    color: black;
+   text-decoration: line-through;
+}
+
+.sostenibilita{
+    color: white;
+    width: auto;
+    height: auto;
+    background-color: forestgreen;
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+}
+
+.sostenibilita-1{
+        color: white;
+        width: auto;
+        height: auto;
+        background-color: forestgreen;
+        position: absolute;
+        bottom: -420px;
+}
+
 .footer-nav{
+    margin: auto;
+    width: 1200px;
     background-color: black;
-    width: 100%;
     height: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    text-decoration: none;
+}
+.politicaly{
+ 
+    width: 450px;
+      color: white;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	height: 100%;
+    list-style: none;
+}
+.trovaci{
+}
+.loghi{
+    color: white;
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
+
+
+h2{
+    color: white;
+    text-align: left;
 }
