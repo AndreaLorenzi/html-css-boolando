@@ -110,36 +110,78 @@
     left: 850px;
     top: 650px;
 }
+
 .levis{
     width: 350px;
     height: 500px;
+}
+.levis:hover{
+    opacity: 0%;
+}
+.one-due{
+    background-image: url(../img/1b.webp);
+    background-size: contain;
 }
 .guess{
     width: 350px;
     height: 500px;
 }
+.guess:hover{
+    opacity: 0%;
+}
+.two-due:hover{
+    background-image: url(../img/2b.webp);
+    background-size: contain;
+}
 .green{
     height: 500px;
     width: 350px;
+}
+.green:hover{
+    opacity: 0%;
+}
+.three-due:hover{
+    background-image: url(../img/3b.webp);
+    background-size: contain;
 }
 .jeans{
     height: 500px;
     width: 350px;
 }
+.jeans:hover{
+    opacity: 0%;
+}
 
+.four-due:hover{
+    background-image: url(../img/4b.webp);
+    background-size: contain;
+}
 .maya-deluxe{
      height: 500px;
     width: 350px;
 }
+.maya-deluxe:hover{
+    opacity: 0%;
+}
 
+.five-due:hover{
+    background-image: url(../img/5b.webp);
+    background-size: contain;
+}
 .black-pullover{
     height: 500px;
     width: 350px;
 }
-
-.text{
-  
+.six-due:hover{
+    background-image: url(../img/6b.webp);
+    background-size: contain;
 }
+
+.black-pullover:hover{
+    opacity: 0%;
+
+}
+
 .price{
     color:red;
 }
